@@ -9,3 +9,5 @@ mongoose.connect("mongodb://localhost:27017/olympics", {
 }).catch((e) => {
     console.log("no connection");
 })
+
+// create connection with mongo db
