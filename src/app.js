@@ -8,5 +8,5 @@ app.use(express.json());
 app.use(MenRouting);
 
 app.listen(port, () => {
-    console.log(`connection is live at port no. ${port}`);
+    console.log(`connections is live at port no. ${port}`);
 });

@@ -3,7 +3,7 @@ const router = new express.Router();
 const MenRanking = require('../model/athlete');
 
 router.get("/", (req, res) => {
-    res.send("this is farrukh feroz");
+    res.send("Hy this is farrukh feroz");
 })
 
 router.post("/ath", async (req, res) => {
